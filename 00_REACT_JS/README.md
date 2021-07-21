@@ -140,7 +140,7 @@ https://xiaolishen.medium.com/use-multiple-ssh-keys-for-different-github-account
 
 ```sh
 git remote -v
-git remote rm origin
-git remote add origin ssh://kio_sl_lms_rsa/v1/repos/kio-sl-lms
+# git remote rm origin
+git remote add origin ssh://kio_sl_lms_rsa/v1/repos/kio-sl-auction-places
 git push
 ```
