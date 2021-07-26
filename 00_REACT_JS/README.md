@@ -144,3 +144,15 @@ git remote -v
 git remote add origin ssh://kio_sl_lms_rsa/v1/repos/kio-sl-auction-places
 git push
 ```
+
+# Install libraries
+```sh
+npm install react-bootstrap bootstrap \
+npm i react-external-link \
+npm i react-router-dom \
+npm i aws-amplify @aws-amplify/ui-react \
+npm i aws-amplify-react \
+npm i --save react-select \
+npm i styled-components \
+npm i uuid
+```
