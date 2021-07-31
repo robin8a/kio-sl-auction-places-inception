@@ -3,6 +3,12 @@
 source ~/.bash_profile
 npx create-react-app kio-sl-auction-places
 ```
+# Design
+[11:21 AM, 7/21/2021] Vaucherinn William Cotrino: EUFONIA NATURAL https://demos.creative-tim.com/paper-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
+[11:22 AM, 7/21/2021] Vaucherinn William Cotrino: WOOOW INNOVACIÓN EDUCATIVA https://demos.creative-tim.com/now-ui-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
+
+- https://demos.creative-tim.com/now-ui-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
+- https://demos.creative-tim.com/paper-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
 
 # Amplify
 
@@ -155,4 +161,42 @@ npm i aws-amplify-react \
 npm i --save react-select \
 npm i styled-components \
 npm i uuid
+```
+
+# Amplify hosting
+
+## Result
+```sh
+amplify add hosting
+# ? Select the plugin module to execute Hosting with Amplify Console (Managed hos
+# ting with custom domains, Continuous deployment)
+# ? Choose a type Continuous deployment (Git-based deployments)
+# ? Continuous deployment is configured in the Amplify Console. Please hit enter 
+# once you connect your repository 
+# Amplify hosting urls: 
+# ┌──────────────┬──────────────────────────────────────────────┐
+# │ FrontEnd Env │ Domain                                       │
+# ├──────────────┼──────────────────────────────────────────────┤
+# │ master       │ https://master.d2xjykbou5rjnv.amplifyapp.com │
+# └──────────────┴──────────────────────────────────────────────┘
+```
+
+
+# Amplify auth
+
+```sh
+amplify add auth
+# Using service: Cognito, provided by: awscloudformation
+ 
+#  The current configured provider is Amazon Cognito. 
+ 
+#  Do you want to use the default authentication and security configuration? Default configuration
+#  Warning: you will not be able to edit these selections. 
+#  How do you want users to be able to sign in? Username
+#  Do you want to configure advanced settings? No, I am done.
+# Successfully added resource kiosmartcontractrjsa43ea2996 locally
+
+# Some next steps:
+# "amplify push" will build all your local backend resources and provision it in the cloud
+# "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
 ```
