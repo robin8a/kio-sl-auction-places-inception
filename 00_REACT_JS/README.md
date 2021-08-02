@@ -3,12 +3,24 @@
 source ~/.bash_profile
 npx create-react-app kio-sl-auction-places
 ```
-# Design
+# Design with Boostrap
+
 [11:21 AM, 7/21/2021] Vaucherinn William Cotrino: EUFONIA NATURAL https://demos.creative-tim.com/paper-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
 [11:22 AM, 7/21/2021] Vaucherinn William Cotrino: WOOOW INNOVACIÓN EDUCATIVA https://demos.creative-tim.com/now-ui-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
 
 - https://demos.creative-tim.com/now-ui-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
 - https://demos.creative-tim.com/paper-kit-react/?_ga=2.9930934.2080127326.1626883384-1146480710.1626883384#/index
+
+## Importing Paper Kit Creative Tim Bootstrap Template
+- [Paper Kit React is a freeby Bootstrap 4, React and Reactstrap UI Kit.](https://demos.creative-tim.com/paper-kit-react/#/documentation/introduction?ref=pkr-github-readme)
+
+## Libraries (Depends the template)
+```sh
+npm i nouislider
+npm i react-datetime
+npm i moment
+npm i reactstrap
+```
 
 # Amplify
 
