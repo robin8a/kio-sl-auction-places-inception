@@ -212,3 +212,7 @@ amplify add auth
 # "amplify push" will build all your local backend resources and provision it in the cloud
 # "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
 ```
+
+
+# Amplify Domain & Route 53 & GoDaddy
+- [Setting up a Custom Domain with the Amplify Console](https://www.youtube.com/watch?v=uaG2mMYLI68)
